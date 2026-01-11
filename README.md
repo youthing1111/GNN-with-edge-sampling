@@ -1,4 +1,10 @@
-# [In progress] Github for dissertation: 'Graph neural network with edge sampling in fraud detection'
+# Github for dissertation: 'Graph Neural Network with One-side Edge Sampling for Fraud Detection'
+
+# Guide
+To run One-side Edge Sampling, add --oes. Example:
+```
+python main.py --data HI_Small --model gin --oes
+```
 
 # Multi-GNN
 This repository contains all models and adaptations needed to run Multi-GNN for Anti-Money Laundering. The repository consists of four Graph Neural Network model classes ([GIN](https://arxiv.org/abs/1810.00826), [GAT](https://arxiv.org/abs/1710.10903), [PNA](https://arxiv.org/abs/2004.05718), [RGCN](https://arxiv.org/abs/1703.06103)) and the below-described model adaptations utilized for financial crime detection in [Egressy et al.](https://arxiv.org/abs/2306.11586). Note that this repository solely focuses on the Anti-Money Laundering use case. This repository has been created for experiments in [Provably Powerful Graph Neural Networks for Directed Multigraphs](https://arxiv.org/abs/2306.11586) [AAAI 2024] and [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models](https://arxiv.org/abs/2306.16424) [NeurIPS 2023].
